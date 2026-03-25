@@ -174,7 +174,7 @@ FROM fact_orders AS FO
 GROUP BY DC.Category_Name
 ORDER BY Margen_Neto_Porcentaje DESC;
 ```
-![image](https://github.com/joscineydavidmoralescuri-afk/SQL-Poject-SupplyChain-Analytics/blob/7d74ac758be0797e4f3402756b03ddc300ac5ae8/Picture/P1.PNG))
+![image](https://github.com/joscineydavidmoralescuri-afk/SQL-Poject-SupplyChain-Analytics/blob/7d74ac758be0797e4f3402756b03ddc300ac5ae8/Picture/P1.PNG)
 
 *Resultado Obtenido.*
 
@@ -195,7 +195,7 @@ FROM Fact_Orders FO
 GROUP BY DCO.Customer_Segment
 ORDER BY Ticket_Promedio DESC;
 ```
-![image](https://github.com/joscineydavidmoralescuri-afk/SQL-Poject-SupplyChain-Analytics/blob/7d74ac758be0797e4f3402756b03ddc300ac5ae8/Picture/P2.PNG))
+![image](https://github.com/joscineydavidmoralescuri-afk/SQL-Poject-SupplyChain-Analytics/blob/7d74ac758be0797e4f3402756b03ddc300ac5ae8/Picture/P2.PNG)
 
 *Resultado Obtenido.*
 
@@ -224,7 +224,7 @@ SELECT *,
        END AS Estado_Logistico_Envio
 FROM Resumen;
 ```
-![image](https://github.com/joscineydavidmoralescuri-afk/SQL-Poject-SupplyChain-Analytics/blob/7d74ac758be0797e4f3402756b03ddc300ac5ae8/Picture/P3.PNG))
+![image](https://github.com/joscineydavidmoralescuri-afk/SQL-Poject-SupplyChain-Analytics/blob/7d74ac758be0797e4f3402756b03ddc300ac5ae8/Picture/P3.PNG)
 
 *Resultado Obtenido.*
 
@@ -250,7 +250,7 @@ SELECT *
 FROM Ranking 
 WHERE Puesto <= 3;
 ```
-![image](https://github.com/joscineydavidmoralescuri-afk/SQL-Poject-SupplyChain-Analytics/blob/7d74ac758be0797e4f3402756b03ddc300ac5ae8/Picture/P4.PNG))
+![image](https://github.com/joscineydavidmoralescuri-afk/SQL-Poject-SupplyChain-Analytics/blob/7d74ac758be0797e4f3402756b03ddc300ac5ae8/Picture/P4.PNG)
 
 *Resultado Obtenido.*
 
@@ -280,7 +280,7 @@ SELECT *,
        ROUND((Venta_Acumulada / Venta_Total_Global) * 100, 2) AS Porcentaje_Acumulado
 FROM Pareto;
 ```
-![image](https://github.com/joscineydavidmoralescuri-afk/SQL-Poject-SupplyChain-Analytics/blob/7d74ac758be0797e4f3402756b03ddc300ac5ae8/Picture/P5.PNG))
+![image](https://github.com/joscineydavidmoralescuri-afk/SQL-Poject-SupplyChain-Analytics/blob/7d74ac758be0797e4f3402756b03ddc300ac5ae8/Picture/P5.PNG)
 
 *Resultado Obtenido.*
 
@@ -303,7 +303,7 @@ FROM Fact_Orders
 GROUP BY YEAR(Order_Date), DATEPART(QUARTER, Order_Date)
 HAVING COUNT(DISTINCT Order_Item_Id) > 10000;
 ```
-![image](https://github.com/joscineydavidmoralescuri-afk/SQL-Poject-SupplyChain-Analytics/blob/7d74ac758be0797e4f3402756b03ddc300ac5ae8/Picture/P6.PNG))
+![image](https://github.com/joscineydavidmoralescuri-afk/SQL-Poject-SupplyChain-Analytics/blob/7d74ac758be0797e4f3402756b03ddc300ac5ae8/Picture/P6.PNG)
 
 *Resultado Obtenido.*
 
@@ -338,7 +338,7 @@ WHERE Rango = 'Alto (>20%)'
 GROUP BY Categoria, Rango
 ORDER BY Beneficio_Promedio ASC;
 ```
-![image](https://github.com/joscineydavidmoralescuri-afk/SQL-Poject-SupplyChain-Analytics/blob/7d74ac758be0797e4f3402756b03ddc300ac5ae8/Picture/P7.PNG))
+![image](https://github.com/joscineydavidmoralescuri-afk/SQL-Poject-SupplyChain-Analytics/blob/7d74ac758be0797e4f3402756b03ddc300ac5ae8/Picture/P7.PNG)
 
 *Resultado Obtenido.*
 
@@ -397,7 +397,7 @@ FROM Conteo_Categorias
 GROUP BY Segmento
 ORDER BY Promedio_Categorias_por_Cliente DESC;
 ```
-![image](https://github.com/joscineydavidmoralescuri-afk/SQL-Poject-SupplyChain-Analytics/blob/7d74ac758be0797e4f3402756b03ddc300ac5ae8/Picture/P9.PNG))
+![image](https://github.com/joscineydavidmoralescuri-afk/SQL-Poject-SupplyChain-Analytics/blob/7d74ac758be0797e4f3402756b03ddc300ac5ae8/Picture/P9.PNG)
 
 *Resultado Obtenido.*
 
@@ -432,7 +432,7 @@ SELECT
     ROUND(((Venta_Neta - Venta_Mes_Anterior) / (Venta_Mes_Anterior)) * 100, 2) AS Tasa_Crecimiento_MoM
 FROM Venta_Anterior;
 ```
-![image](https://github.com/joscineydavidmoralescuri-afk/SQL-Poject-SupplyChain-Analytics/blob/7d74ac758be0797e4f3402756b03ddc300ac5ae8/Picture/P10.PNG))
+![image](https://github.com/joscineydavidmoralescuri-afk/SQL-Poject-SupplyChain-Analytics/blob/7d74ac758be0797e4f3402756b03ddc300ac5ae8/Picture/P10.PNG)
 
 *Resultado Obtenido.*
 
@@ -475,7 +475,7 @@ SELECT Market,
     END AS Verificacion
 FROM Acumulado;
 ```
-![image](https://github.com/joscineydavidmoralescuri-afk/SQL-Poject-SupplyChain-Analytics/blob/7d74ac758be0797e4f3402756b03ddc300ac5ae8/Picture/P11.PNG))
+![image](https://github.com/joscineydavidmoralescuri-afk/SQL-Poject-SupplyChain-Analytics/blob/7d74ac758be0797e4f3402756b03ddc300ac5ae8/Picture/P11.PNG)
 
 *Resultado Obtenido.*
 
@@ -512,7 +512,7 @@ SELECT
     ROUND((Venta_Real - Promedio_Movil_3M) / (Promedio_Movil_3M) * 100, 2) AS Porcentaje_Desviacion
 FROM Calculo_Movil;
 ```
-![image](https://github.com/joscineydavidmoralescuri-afk/SQL-Poject-SupplyChain-Analytics/blob/7d74ac758be0797e4f3402756b03ddc300ac5ae8/Picture/P12.PNG))
+![image](https://github.com/joscineydavidmoralescuri-afk/SQL-Poject-SupplyChain-Analytics/blob/7d74ac758be0797e4f3402756b03ddc300ac5ae8/Picture/P12.PNG)
 
 *Resultado Obtenido.*
 
@@ -551,7 +551,7 @@ SELECT Nombre_Categoria,
     END AS Clasificacion_ABC
 FROM Pareto_Calculo;
 ```
-![image](https://github.com/joscineydavidmoralescuri-afk/SQL-Poject-SupplyChain-Analytics/blob/7d74ac758be0797e4f3402756b03ddc300ac5ae8/Picture/P13.PNG))
+![image](https://github.com/joscineydavidmoralescuri-afk/SQL-Poject-SupplyChain-Analytics/blob/7d74ac758be0797e4f3402756b03ddc300ac5ae8/Picture/P13.PNG)
 
 *Resultado Obtenido.*
 
@@ -584,7 +584,7 @@ FROM Metricas
 WHERE (Dias_Despacho - Promedio_Nacional) > 0 
 ORDER BY Brecha_Dias DESC;
 ```
-![image](https://github.com/joscineydavidmoralescuri-afk/SQL-Poject-SupplyChain-Analytics/blob/7d74ac758be0797e4f3402756b03ddc300ac5ae8/Picture/P14.PNG))
+![image](https://github.com/joscineydavidmoralescuri-afk/SQL-Poject-SupplyChain-Analytics/blob/7d74ac758be0797e4f3402756b03ddc300ac5ae8/Picture/P14.PNG)
 
 *Resultado Obtenido.*
 
@@ -615,7 +615,7 @@ SELECT
 FROM Carga_Historica
 ORDER BY Market;
 ```
-![image](https://github.com/joscineydavidmoralescuri-afk/SQL-Poject-SupplyChain-Analytics/blob/7d74ac758be0797e4f3402756b03ddc300ac5ae8/Picture/P15.PNG))
+![image](https://github.com/joscineydavidmoralescuri-afk/SQL-Poject-SupplyChain-Analytics/blob/7d74ac758be0797e4f3402756b03ddc300ac5ae8/Picture/P15.PNG)
 
 *Resultado Obtenido.*
 
