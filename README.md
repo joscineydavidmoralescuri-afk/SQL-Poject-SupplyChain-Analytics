@@ -30,7 +30,7 @@ Para mayor información de la fuente de datos originales se puede encontrar en e
 
 El modelo cuenta con una tabla de hechos principal (`Fact_Orders`) y múltiples dimensiones para un análisis granular.
 
-![Modelo Relacional del DataSet](Picture\Diagrama-Relacional.PNG)
+![Modelo Relacional del DataSet]([Picture\Diagrama-Relacional.PNG](https://github.com/joscineydavidmoralescuri-afk/SQL-Poject-SupplyChain-Analytics/blob/d8717bb95d768ac41ce0ff771ef6b1445df21487/Picture/Diagrama-Relacional.PNG))
 *Nota: Diagrama Relacional de los datos.*
 
 ---
