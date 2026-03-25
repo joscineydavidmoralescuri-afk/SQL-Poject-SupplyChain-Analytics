@@ -1,3 +1,5 @@
+<img width="1280" height="350" alt="image" src="https://github.com/user-attachments/assets/be829119-929d-479e-a24f-111aa3840466" />
+
 # Proyecto SQL: Analisis Estrategico de Ventas y Cadena de Suministro
 
 ## Resumen (Overview)
