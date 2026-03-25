@@ -1,4 +1,4 @@
-# Proyecto SQL: Analisis Estrategicos de Ventas y Cadena de Suministro
+# Proyecto SQL: Analisis Estrategico de Ventas y Cadena de Suministro
 
 ## Resumen (Overview)
 La compañia de operaciones de **DataCo Global** busca optimizar su eficiencia logística y mejorar la precisión en la planificación de la demanda, donde la empresa enfrentó retos significativos en la variabilidad de la demanda y retrasos críticos en el despacho en regiones específicas.
